@@ -2,7 +2,8 @@ import images from "./images";
 
 // const navBarLinks = [ 'home', 'about', 'work', 'skills', 'contact' ]
 
-const navBarLinks = ["home", "work", "skills", "contact"];
+// const navBarLinks = ["home", "work", "skills", "contact"];
+const navBarLinks = ["home", "work", "skills"];
 
 // const tags = [ 'UI/UX', 'Web App', 'Mobile App', 'React JS', 'All' ]
 

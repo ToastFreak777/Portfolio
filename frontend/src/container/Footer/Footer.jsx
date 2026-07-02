@@ -24,6 +24,12 @@ const Footer = () => {
   const handleSubmit = () => {
     setLoading(true);
 
+    if (!formData.username || !formData.email || !formData.message) {
+      alert("Please fill in all fields before submitting the form.");
+      setLoading(false);
+      return;
+    }
+
     const contact = {
       _type: "contact",
       name: formData.username,
